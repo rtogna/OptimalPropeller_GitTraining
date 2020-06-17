@@ -8,7 +8,7 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
 <li> Da terminale: passare al branch develop con il comando "git checkout -b develop origin/develop".</li>
 <li> Da terminale: creare un nuovo branch a partire da quello in cui ci troviamo (develop) con il comando "git checkout -b feature_NuovaFeature" (quindi il nuovo branch si chiamerà feature_NuovaFeature).
   <ul>
-<li> Da GitHub: creare un nuovo branch con lo stesso nome di quello creato con git da terminale. DA VERIFICARE SE NECESSARIO!!!</li>
+<li> Da GitHub: creare un nuovo branch con lo stesso nome di quello creato con git da terminale. NON NECESSARIO se eseguiamo il punto 10!!!</li>
   </ul></li>
 <li> Adesso abbiamo creato questo nuovo branch e ci troviamo a lavorare su di esso. Si può fare un controllo per capire che stiamo lavorando in questo branch dando il comando "git status".</li>
 <li> Lavoriamo sui file modificandoli con un IDE ad esempio.</li>
