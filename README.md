@@ -25,12 +25,12 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
 <li>Ogni volta che dobbiamo fare nuove modifiche a dei file dobbiamo sempre assicurarci di essere sul branch giusto con "git status" e dobbiamo sempre fare prima un "git pull" nel caso in cui qualcun altro abbia modificato i file. </li>
  <li>Per vedere in quale branch ci troviamo possiamo anche usare il comando "git branch" il quale ci mostra tutti i branch presenti ed evidenzia quello in cui ci troviamo.</li>
 <li> il comando al punto 10 va fatto SOLO LA PRIMA VOLTA che creiamo il branch, per le modifiche successive non sarà più necessario dal momento che il branch sul quale stiamo lavorando sarà già presente su GitHub.</li>
-  <li> Il comando al punto 9 agisce su tutti i file scelti al punto o tramite il comando add. Per cui, per scrivere diverse descrizioni per file diversi bisogna:
+<li> Il comando al punto 9 agisce su tutti i file scelti al punto o tramite il comando add. Per cui, per scrivere diverse descrizioni per file diversi bisogna:
     <ul>
-      <il>Comando "git add file1.cpp"</il>
-      <il>Comando "git commit -m "Descrizione modifiche al file1.cpp""</il>
-      <il>Comando "git add file2.cpp"</il>
-      <il>Comando "git commit -m "Descrizione modifiche al file2.cpp""</il>
+      <li>Comando "git add file1.cpp"</li>
+      <li>Comando "git commit -m "Descrizione modifiche al file1.cpp""</li>
+      <li>Comando "git add file2.cpp"</li>
+      <li>Comando "git commit -m "Descrizione modifiche al file2.cpp""</li>
     </ul>
   </li>
 </ul>
