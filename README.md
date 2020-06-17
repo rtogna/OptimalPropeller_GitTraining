@@ -22,5 +22,6 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
 <ul>
 <li> Per passare da un branch ad un altro gia esistenti usare il comando "git checkout nomeBranch". </li>
 <li>Ogni volta che dobbiamo fare nuove modifiche a dei file dobbiamo sempre assicurarci di essere sul branch giusto con "git status" e dobbiamo sempre fare prima un "git pull" nel caso in cui qualcun altro abbia modificato i file. </li>
+ <li>Per vedere in quale branch ci troviamo possiamo anche usare il comando "git branch" il quale ci mostra tutti i branch presenti ed evidenzia quello in cui ci troviamo.</li>
 <li> il comando al punto 10 va fatto SOLO LA PRIMA VOLTA che creiamo il branch, per le modifiche successive non sarà più necessario dal momento che il branch sul quale stiamo lavorando sarà già presente su GitHub.</li>
 </ul>
