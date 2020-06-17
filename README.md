@@ -19,6 +19,7 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
 <li> Comando "git push origin feature_NuovaFeature" per inviare le modifiche su GitHub.</li>
 </ol>
 
+<b>Qualche chiarimento</b>
 <ul>
 <li> Per passare da un branch ad un altro gia esistenti usare il comando "git checkout nomeBranch". </li>
 <li>Ogni volta che dobbiamo fare nuove modifiche a dei file dobbiamo sempre assicurarci di essere sul branch giusto con "git status" e dobbiamo sempre fare prima un "git pull" nel caso in cui qualcun altro abbia modificato i file. </li>
