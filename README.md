@@ -34,8 +34,8 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
     </ul>
   </li>
   <li>Una volta fatte tutte le modifiche e verificato che tutto funziona ed è pronto per essere caricato sulla versione ufficiale, bisogna fare (tramite GitHub) una "pull request" dal nostro branch al branch develop inserendo una descrizione di quello che abbiamo fatto (nel nostro caso magari sarà la descrizione del modello che abbiamo implementato).</li>
-  <li>Il comando commit al punto 9 può essere dato nella forma seguente per dare un titolo alla modifica ed una breve descrizione di essa:
-   git commit -m "Fix computation of the volume for skewed quadrilateral elements."
-   \
+  <li>Il comando commit al punto 9 può essere dato nella forma seguente per dare un titolo alla modifica ed una breve descrizione di essa:<br>
+   git commit -m "Fix computation of the volume for skewed quadrilateral elements."<br>
+   \<br>
  -m "If a 2-D quadrilateral element is sufficiently skewed, the volume approximation is not computed properly. This modifies the volume computation to use the base and height of the quadrilateral instead of the base and hypotenuse. This fixes cases where the volume was incorrectly computed to be less than zero. Fixes issue #10."</li>
 </ul>
