@@ -33,4 +33,5 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
       <li>Comando "git commit -m "Descrizione modifiche al file2.cpp""</li>
     </ul>
   </li>
+  <li>Una volta fatte tutte le modifiche e verificato che tutto funziona ed è pronto per essere caricato sulla versione ufficiale, bisogna fare (tramite GitHub) una "pull request" dal nostro branch al branch develop inserendo una descrizione di quello che abbiamo fatto (nel nostro caso magari sarà la descrizione del modello che abbiamo implementato).</li>
 </ul>
