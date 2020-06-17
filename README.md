@@ -15,6 +15,7 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
 <li> Diamo di nuovo il comando "git status" per vedere lo stato dei file modificati. Ci verrà detto che non sono tracciate le modifiche perchè dobbiamo fare l'add del prossimo punto.</li>
 <li> Comando "git add file1.cpp file2.cpp" significa che stiamo aggiungendo i file nominati file1.cpp e file2.cpp di cui tracciamo le modifiche, o se sono nuovi vengono aggiunti.</li>
 <li> Comando "git commit -m "Mettere una breve descrizione della modifica per i file selezionati con il comando add"".</li>
+<li> Comando "git push --set-upstream origin feature_SecondBranch" per inviare il nuovo branch creato su GitHub. </li>
 <li> Comando "git push origin feature_NuovaFeature" per inviare le modifiche su GitHub.</li>
 </ol>
 
