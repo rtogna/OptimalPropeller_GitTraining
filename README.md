@@ -7,9 +7,9 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
 <li> Da terminale: clonare il progetto con il comando "git clone &#60URL&#62"</li>
 <li> Da terminale: passare al branch develop con il comando "git checkout -b develop origin/develop"</li>
 <li> Da terminale: creare un nuovo branch a partire da quello in cui ci troviamo (develop) con il comando "git checkout -b feature_NuovaFeature" (quindi il nuovo branch si chiamerà feature_NuovaFeature)</li>
-<ol>
+  <ol>
 <li> Da GitHub: creare un nuovo branch con lo stesso nome di quello creato con git da terminale. DA VERIFICARE SE NECESSARIO!!!</li>
-</ol>
+  </ol>
 <li> Adesso abbiamo creato questo nuovo branch e ci troviamo a lavorare su di esso. Si può fare un controllo per capire che stiamo lavorando in questo branch dando il comando "git status".</li>
 <li> Lavoriamo sui file modificandoli con un IDE ad esempio.</li>
 <li> Diamo di nuovo il comando "git status" per vedere lo stato dei file modificati. Ci verrà detto che non sono tracciate le modifiche perchè dobbiamo fare l'add del prossimo punto.</li>
