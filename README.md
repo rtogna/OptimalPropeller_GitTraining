@@ -5,7 +5,7 @@ Questa è una prova per capire il GitFlow e per utilizzare i comandi git.
 <ol>
 <li> Da GitHub: creare un fork del progetto per avere una propia repo del progetto.</li>
 <li> Da terminale: clonare il progetto con il comando "git clone &#60URL&#62".</li>
-<li> Da terminale: passare al branch develop con il comando "git checkout -b develop origin/develop".</li>
+<li> Da terminale: passare al branch develop con il comando "git checkout -b develop origin/develop". (Potrebbe non essere necessario se il comando precedente ha gia creato il branch develop. In tal caso basterà passare al branch develop con il comando "git checkout develop")</li>
 <li> Da terminale: creare un nuovo branch a partire da quello in cui ci troviamo (develop) con il comando "git checkout -b feature_NuovaFeature" (quindi il nuovo branch si chiamerà feature_NuovaFeature).
   <ul>
 <li> Da GitHub: creare un nuovo branch con lo stesso nome di quello creato con git da terminale. NON NECESSARIO se eseguiamo il punto 10!!!</li>
