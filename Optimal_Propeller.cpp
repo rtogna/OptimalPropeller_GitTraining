@@ -8,6 +8,7 @@
 //============================================================================
 
 // PROVA DI MODIFICA CODICE
+// MODIFICA SINGOLA
 
 #include <iostream>
 #include <fstream>
